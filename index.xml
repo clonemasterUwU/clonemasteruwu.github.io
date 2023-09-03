@@ -23,11 +23,11 @@ Each fractional part $\lbrace \dfrac{t x_i}{2} \rbrace$ belongs to exactly one i
     </item>
     
     <item>
-      <title>CSE 2402: Two Stacks Sorting</title>
-      <link>https://clonemasteruwu.github.io/post/cses-2stacks-sorting/</link>
+      <title>CSES 2402: Two Stacks Sorting</title>
+      <link>https://clonemasteruwu.github.io/post/cses-2402-two-stacks-sorting/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://clonemasteruwu.github.io/post/cses-2stacks-sorting/</guid>
+      <guid>https://clonemasteruwu.github.io/post/cses-2402-two-stacks-sorting/</guid>
       <description>Problem Statement Given a permutation p of [1..n], you are tasked with finding a sequence to sort the permutation using two stacks, with possible interleaving push/pop operations. You should also determine if it&amp;rsquo;s impossible to sort the permutation.
 Constraint: n ~ 2e5
 Example: [5 2 4 1 6 3] Sequence: push 1 [5] [] push 2 [5] [2] push 1 [5 4] [2] push 1 [5 4 1] [2] pop 1 [5 4] [2] pop 2 [5 4] [] push 2 [5 4] [6] .</description>
