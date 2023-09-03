@@ -1,0 +1,22 @@
+baseURL: ""
+languageCode: en-us
+title: clonemasteruwu
+theme: PaperMod
+params:
+  math: true
+
+  defaultTheme: auto 
+
+  homeInfoParams:
+    Title: The notes
+    Content: unorthodox problems' solution | programming languages' quirk
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/clonemasteruwu"
+    - name: "codeforces"
+      url: "https://codeforces.com/profile/clonemasteruwu"
+    - name: "leetcode"
+      url: "https://leetcode.com/clonemasterUwU/"
+    - name: "leetcode"
+      url: "https://leetcode.com/rejudge_thiz/"
