@@ -1,5 +1,5 @@
 ---
-title: "CSE 2402: Two Stacks Sorting"
+title: "CSES 2402: Two Stacks Sorting"
 date: 2022-12-17
 draft: false
 ---
