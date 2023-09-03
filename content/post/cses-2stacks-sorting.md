@@ -43,7 +43,7 @@ Of all connected components that we build on the left, which ones has an element
 
 Luckily, both of those question can be answered by maintain the priority queue for each component.
 
-The only part left is coloring: If any component has both black and white vertices that satisfy the second condition above, then we cannot 2-coloring the graph. Otherwise, we can merge it with the current component, and recolor if need. The final trick under the sleeve is small-to-large merging to achieve the $O(n \log n)$ runtime.
+The only part left is coloring: If any component has both black and white vertices that satisfy the second condition above, then we cannot 2-coloring the graph. Otherwise, we can merge it with the current component, and recolor if needed. The final trick under the sleeve is small-to-large merging to achieve the $O(n \log n)$ runtime.
 
 ### Impl
 
