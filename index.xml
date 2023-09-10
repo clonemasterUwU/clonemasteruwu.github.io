@@ -6,7 +6,21 @@
     <description>Recent content on clonemasteruwu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://clonemasteruwu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://clonemasteruwu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 9 CMU Putnam Training 2022 Combinatoric</title>
+      <link>https://clonemasteruwu.github.io/post/cmu-putnam-training-2022-combinatoric-9/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://clonemasteruwu.github.io/post/cmu-putnam-training-2022-combinatoric-9/</guid>
+      <description>Problem Statement Given a graph G with each vertex assigned with a binary state on/off.
+Each move consists of choosing a vertex, then change the state of itself and all of its neighbor(s).
+Prove that from the all-off starting position, it is possible to reach the all-on position.
+Idea Let $n$ be the number of vertex in $G$.
+Let $A$ be the adjacent matrix of $G$:
+$$ A_{ij} = \begin{cases} 1 &amp;amp;\text{if } i=j \text{ or }i\text{ and }j \text{ are adjacent in G} \\ 0 &amp;amp;\text{otherwise } \end{cases} $$</description>
+    </item>
+    
     <item>
       <title>Putnam &amp; Beyond Problem 46</title>
       <link>https://clonemasteruwu.github.io/post/putnam-n-beyond-problem-46/</link>
