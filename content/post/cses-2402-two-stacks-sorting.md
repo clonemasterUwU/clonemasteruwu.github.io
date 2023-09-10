@@ -32,7 +32,7 @@ For every index i,j,k which match the pattern 231
 (i.e. i < j < k and p[k] < p[i] < p[j]), 
 there is an egde between p[i] and p[j]
 ```
-However, recreate the whole graph is infeasible under the constraint; an 'mountain' permutation's graph can have as much as $O(n^2)$.
+However, recreate the whole graph is infeasible under the constraint; an 'mountain' permutation's graph can have as much as $O(n^2)$ edges.
 Instead we are going to build the connected components and recolor them on the fly. An important observation:
 
 ```
