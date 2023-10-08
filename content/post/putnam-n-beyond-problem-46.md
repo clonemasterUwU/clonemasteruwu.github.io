@@ -25,7 +25,7 @@ Each fractional part $\lbrace \dfrac{t x_i}{2} \rbrace$ belongs to exactly one i
 $$ K = \lbrace \lbrack 0, \dfrac{1}{k}\rparen, \lbrack \dfrac{1}{k}, \dfrac{2}{k}\rparen, ... , \lbrack \dfrac{k-1}{k}, 1\rparen \rbrace $$
 
 By pigeonhole principle, dividing infinite tuples of form $(\lbrace \dfrac{t x_i}{2} \rbrace)$ to an finite set
-of $K \times K \times...\times K$ (n times) means there exists 2 integers $p < q$ such that
+of $K \times K \times...\times K$ (n times) means there exists 2 integers $p < q$ such that p and q falls into the same hypercube, that is:
 
 $ 0 \leq \lbrace (q-p)\dfrac{x_i}{2} \rbrace < \dfrac{1}{k}$ or $\dfrac{k-1}{k} \leq \lbrace (q-p)\dfrac{x_i}{2} \rbrace < 1$ for each $i$ in [1..n]
 
