@@ -63,6 +63,7 @@ Each fractional part $\lbrace \dfrac{t x_i}{2} \rbrace$ belongs to exactly one i
 
     </style>
 </noscript>
+<meta name="google-site-verification" content="YLcAya-7HMOG2lKymZMPJf2YF-U9KAIQtxt0Htxo8qU" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
     integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"
@@ -146,8 +147,8 @@ Each fractional part $\lbrace \dfrac{t x_i}{2} \rbrace$ belongs to exactly one i
   "keywords": [
     
   ],
-  "articleBody": "Problem Statement Let $x_1,x_2,…,x_k$ be real numbers such that the set\n$$ A = \\lbrace \\sum_{i=1}^n cos(n\\pi x_i) | n \\geq 1 \\rbrace $$\nis finite. Prove that all the $x_i$ are rational numbers.\nIdea (borrow from the proof that $\\lbrace n\\alpha \\rbrace$ is dense on [0,1])\nLet k be an integer. Consider the tuple\n$$ (\\lbrace \\dfrac{t x_1}{2} \\rbrace,\\lbrace \\dfrac{t x_2}{2} \\rbrace,…,\\lbrace \\dfrac{t x_n}{2} \\rbrace)$$\nEach fractional part $\\lbrace \\dfrac{t x_i}{2} \\rbrace$ belongs to exactly one interval of the set\n$$ K = \\lbrace \\lbrack 0, \\dfrac{1}{k}\\rparen, \\lbrack \\dfrac{1}{k}, \\dfrac{2}{k}\\rparen, … , \\lbrack \\dfrac{k-1}{k}, 1\\rparen \\rbrace $$\nBy pigeonhole principle, dividing infinite tuples of form $(\\lbrace \\dfrac{t x_i}{2} \\rbrace)$ to an finite set of $K \\times K \\times…\\times K$ (n times) means there exists 2 integers $p \u003c q$ such that\n$ 0 \\leq \\lbrace (q-p)\\dfrac{x_i}{2} \\rbrace \u003c \\dfrac{1}{k}$ or $\\dfrac{k-1}{k} \\leq \\lbrace (q-p)\\dfrac{x_i}{2} \\rbrace \u003c 1$ for each $i$ in [1..n]\nBy choosing arbitarily large k, there exists an integer $t \\geq 1$ such that $t \\pi x_i$ gets arbitarily close to some $2 m \\pi | m \\in \\mathbb{Z}$ points for every i. This means $cos(t\\pi x_i)$ gets arbitarily close to 1 for every i as well.\nAs the set A is finite, then the value $n$ (which is achieved when $cos(t\\pi x_i) = 1$ for every i) must be in A.\nThen the conclusion that all $x_i$ are rational numbers comes naturally.\nAftermath This proof differs from one from the book that utilize the Chebyshev polynomial’s recurrence. In general,this method can be extended for any continous, periodic function as well.\n",
-  "wordCount" : "264",
+  "articleBody": "Problem Statement Let $x_1,x_2,…,x_k$ be real numbers such that the set\n$$ A = \\lbrace \\sum_{i=1}^n cos(n\\pi x_i) | n \\geq 1 \\rbrace $$\nis finite. Prove that all the $x_i$ are rational numbers.\nIdea (borrow from the proof that $\\lbrace n\\alpha \\rbrace$ is dense on [0,1])\nLet k be an integer. Consider the tuple\n$$ (\\lbrace \\dfrac{t x_1}{2} \\rbrace,\\lbrace \\dfrac{t x_2}{2} \\rbrace,…,\\lbrace \\dfrac{t x_n}{2} \\rbrace)$$\nEach fractional part $\\lbrace \\dfrac{t x_i}{2} \\rbrace$ belongs to exactly one interval of the set\n$$ K = \\lbrace \\lbrack 0, \\dfrac{1}{k}\\rparen, \\lbrack \\dfrac{1}{k}, \\dfrac{2}{k}\\rparen, … , \\lbrack \\dfrac{k-1}{k}, 1\\rparen \\rbrace $$\nBy pigeonhole principle, dividing infinite tuples of form $(\\lbrace \\dfrac{t x_i}{2} \\rbrace)$ to an finite set of $K \\times K \\times…\\times K$ (n times) means there exists 2 integers $p \u003c q$ such that p and q falls into the same hypercube, that is:\n$ 0 \\leq \\lbrace (q-p)\\dfrac{x_i}{2} \\rbrace \u003c \\dfrac{1}{k}$ or $\\dfrac{k-1}{k} \\leq \\lbrace (q-p)\\dfrac{x_i}{2} \\rbrace \u003c 1$ for each $i$ in [1..n]\nBy choosing arbitarily large k, there exists an integer $t \\geq 1$ such that $t \\pi x_i$ gets arbitarily close to some $2 m \\pi | m \\in \\mathbb{Z}$ points for every i. This means $cos(t\\pi x_i)$ gets arbitarily close to 1 for every i as well.\nAs the set A is finite, then the value $n$ (which is achieved when $cos(t\\pi x_i) = 1$ for every i) must be in A.\nThen the conclusion that all $x_i$ are rational numbers comes naturally.\nAftermath This proof differs from one from the book that utilize the Chebyshev polynomial’s recurrence. In general,this method can be extended for any continous, periodic function as well.\n",
+  "wordCount" : "274",
   "inLanguage": "en",
   "datePublished": "2023-03-03T00:00:00Z",
   "dateModified": "2023-03-03T00:00:00Z",
@@ -233,7 +234,7 @@ Each fractional part $\lbrace \dfrac{t x_i}{2} \rbrace$ belongs to exactly one i
 <p>Each fractional part $\lbrace \dfrac{t x_i}{2} \rbrace$ belongs to exactly one interval of the set</p>
 <p>$$ K = \lbrace \lbrack 0, \dfrac{1}{k}\rparen, \lbrack \dfrac{1}{k}, \dfrac{2}{k}\rparen, &hellip; , \lbrack \dfrac{k-1}{k}, 1\rparen \rbrace $$</p>
 <p>By pigeonhole principle, dividing infinite tuples of form $(\lbrace \dfrac{t x_i}{2} \rbrace)$ to an finite set
-of $K \times K \times&hellip;\times K$ (n times) means there exists 2 integers $p &lt; q$ such that</p>
+of $K \times K \times&hellip;\times K$ (n times) means there exists 2 integers $p &lt; q$ such that p and q falls into the same hypercube, that is:</p>
 <p>$ 0 \leq \lbrace (q-p)\dfrac{x_i}{2} \rbrace &lt; \dfrac{1}{k}$ or $\dfrac{k-1}{k} \leq \lbrace (q-p)\dfrac{x_i}{2} \rbrace &lt; 1$ for each $i$ in [1..n]</p>
 <p>By choosing arbitarily large k, there exists an integer $t \geq 1$ such that $t \pi x_i$ gets arbitarily close to some $2 m \pi | m \in \mathbb{Z}$ points for every i. This means $cos(t\pi x_i)$ gets arbitarily close to 1 for every i as well.</p>
 <p>As the set A is finite, then the value $n$ (which is achieved when $cos(t\pi x_i) = 1$ for every i) must be in A.</p>
