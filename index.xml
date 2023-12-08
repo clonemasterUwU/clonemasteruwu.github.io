@@ -6,7 +6,19 @@
     <description>Recent content on clonemasteruwu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://clonemasteruwu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Dec 2023 18:51:33 -0500</lastBuildDate><atom:link href="https://clonemasteruwu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Putnam 2023 A4</title>
+      <link>https://clonemasteruwu.github.io/post/putnam-2023-a4/</link>
+      <pubDate>Tue, 05 Dec 2023 18:51:33 -0500</pubDate>
+      
+      <guid>https://clonemasteruwu.github.io/post/putnam-2023-a4/</guid>
+      <description>Problem statement Prove that any $\overrightarrow{v} \in \mathbb{R}^3$ can be approximated to arbitrary precision by an integral linear combination of unit vectors from the origin to the vertices of a regular icosahedron.
+Idea icosahedron with denotation
+$S$ = Integral linear combination of $\{O&amp;rsquo;A, O&amp;rsquo;B, O&amp;rsquo;C, O&amp;rsquo;D, O&amp;rsquo;E\}$ is dense on $\mathbb{R}^2$ $\{ \{n\alpha\} = n\alpha - \lfloor n\alpha \rfloor \}, n\in\mathbb{N}$ is dense on $[0,1)$
+$\{ m\alpha + n\beta \}, m,n \in \mathbb{N},\dfrac{a}{b}\in \mathbb{R}\setminus\mathbb{Q}$ is dense on $\mathbb{R}$</description>
+    </item>
+    
     <item>
       <title>Problem 9 CMU Putnam Training 2022 Combinatoric</title>
       <link>https://clonemasteruwu.github.io/post/cmu-putnam-training-2022-combinatoric-9/</link>
