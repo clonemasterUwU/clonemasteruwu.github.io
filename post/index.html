@@ -200,13 +200,12 @@ $$ A_{ij} = \begin{cases} 1 &amp;\text{if } i=j \text{ or }i\text{ and }j \text{
     </h2>
   </header>
   <div class="entry-content">
-    <p>Problem Statement Let $x_1,x_2,…,x_k$ be real numbers such that the set
-$$ A = \lbrace \sum_{i=1}^n cos(n\pi x_i) | n \geq 1 \rbrace $$
+    <p>Problem Statement Let $x_1,x_2,…,x_m$ be real numbers such that the set
+$$ A = \lbrace \sum_{i=1}^m cos(n\pi x_i) | n \in \mathbb{N} \rbrace $$
 is finite. Prove that all the $x_i$ are rational numbers.
-Idea (borrow from the proof that $\lbrace n\alpha \rbrace$ is dense on [0,1])
-Let k be an integer. Consider the tuple
-$$ (\lbrace \dfrac{t x_1}{2} \rbrace,\lbrace \dfrac{t x_2}{2} \rbrace,…,\lbrace \dfrac{t x_n}{2} \rbrace)$$
-Each fractional part $\lbrace \dfrac{t x_i}{2} \rbrace$ belongs to exactly one interval of the set...</p>
+Idea (borrow from the proof that $\lbrace n\alpha \rbrace = n\alpha - \lfloor n\alpha \rfloor$ is dense on $[0,1]$)
+Let $k$ be an integer. Consider the tuple
+$$ (\lbrace \dfrac{t x_1}{2} \rbrace,\lbrace \dfrac{t x_2}{2} \rbrace,…,\lbrace \dfrac{t x_m}{2} \rbrace)$$...</p>
   </div>
   <footer class="entry-footer"><span title='2023-03-03 00:00:00 +0000 UTC'>March 3, 2023</span></footer>
   <a class="entry-link" aria-label="post link to Putnam &amp; Beyond Problem 46" href="https://clonemasteruwu.github.io/post/putnam-n-beyond-problem-46/"></a>
@@ -218,7 +217,7 @@ Each fractional part $\lbrace \dfrac{t x_i}{2} \rbrace$ belongs to exactly one i
     </h2>
   </header>
   <div class="entry-content">
-    <p>Problem Statement Given a permutation p of [1..n], you are tasked with finding a sequence to sort the permutation using two stacks, with possible interleaving push/pop operations. You should also determine if it’s impossible to sort the permutation.
+    <p>Problem Statement Given a permutation p of [1..n], find a sequence to sort the permutation using two stacks, with possibly interleaving push/pop operations or determine it’s impossible.
 Constraint: n ~ 2e5
 Example: [5 2 4 1 6 3] Sequence: push 1 [5] [] push 2 [5] [2] push 1 [5 4] [2] push 1 [5 4 1] [2] pop 1 [5 4] [2] pop 2 [5 4] [] push 2 [5 4] [6] ....</p>
   </div>
@@ -233,7 +232,7 @@ Example: [5 2 4 1 6 3] Sequence: push 1 [5] [] push 2 [5] [2] push 1 [5 4] [2] p
   </header>
   <div class="entry-content">
     <p>Problem Statement Given n integers a[1..n].
-Calculate sum of t-th powers (i.e. $\sum_{i=1}^{n}a_i^{t}$) (mod 998244353) for t in [1..k]
+Calculate sum of t-th powers, $\sum_{i=1}^{n}a_i^{t}$, modulo 998244353 for t in [1..k]
 Constraint: n ~ 1e5, k ~ 1e5
 Hint According to Wikipedia, we have the generating function for sum of power:
 $$\sum_{k=1}^{\infty} (-1)^{k-1}p_k \dfrac{t^k}{k} = \ln (1&#43;e_1 t &#43; e_2 t^2 &#43; e_3 t^3 &#43; …)$$
