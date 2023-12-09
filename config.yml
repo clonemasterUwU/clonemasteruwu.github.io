@@ -9,7 +9,7 @@ params:
 
   homeInfoParams:
     Title: The notes
-    Content: unorthodox problems' solution | programming languages' quirk
+    Content: of unorthodox solutions
 
   socialIcons:
     - name: "github"

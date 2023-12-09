@@ -25,7 +25,7 @@ A_{ij} = \begin{cases}
 \end{cases}
 $$
 
-Another observation is that performing 2 moves on the same vertex has zero effect regardless of other moves.
+Another observation is that performing 2 moves on the same vertex has net zero effect regardless of other moves.
 
 So the problem boils down to whether there exists $v \in \mathbb{Z_2}^n$ such that:
 

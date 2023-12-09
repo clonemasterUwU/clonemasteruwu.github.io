@@ -8,7 +8,7 @@ draft: false
 
 Given `n` integers `a[1..n]`. 
 
-Calculate sum of t-th powers (i.e. $\sum_{i=1}^{n}a_i^{t}$) (mod 998244353) for t in `[1..k]`
+Calculate sum of t-th powers, $\sum_{i=1}^{n}a_i^{t}$, modulo 998244353 for t in `[1..k]`
 
 **Constraint:** `n ~ 1e5, k ~ 1e5`
 
@@ -40,7 +40,7 @@ Now we take the derivative of the generating function w.r.t. t:
 
 $$ \sum_{k=1}^{\infty} (-1)^{k-1} p_k t^{k-1} = \dfrac{e_1 + 2e_2 t + 3e_3 t^2 + ...}{1 + e_1 t + e_2 t^2 + e_3 t^3 + ...}$$
 
-The missing part is [how to divide two polynomials in sub-quadratic ($n \log ^ 2 n$) time](https://web.archive.org/web/20170830041003/http://www.diag.uniroma1.it/sankowski/lecture4.pdf).
+The only missing part left is [how to divide two polynomials in poly-log ($n \log ^ 2 n$) time](https://web.archive.org/web/20170830041003/http://www.diag.uniroma1.it/sankowski/lecture4.pdf).
 
 ### Impl
 
